@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football</title>
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-toggle" id="navbar-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar-menu" id="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="basketball.html">Basketball</a></li>
+        <li><a href="football.html" class="active">Football</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+        <li><a href="soccer.html">Soccer</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-wrapper">
+      <header class="header">
+        <img
+          src="imgs/football/old-football.webp"
+          alt="Background Image"
+          class="header-image"
+        />
+        <div class="header-content">
+          <h1>Football</h1>
+        </div>
+      </header>
+    </div>
+
+    <!-- New Content Section -->
+    <div class="content-section">
+      <h1>Football Leagues around the Globe</h1>
+      <p>
+        Dive deep into the history of your favorite sports leagues. Explore
+        detailed information about NBA, NFL, NHL, Soccer, and more. Discover how
+        these leagues began and evolved over time.
+      </p>
+    </div>
+
+    <div class="main-grid-container">
+      <a href="nfl.html">
+        <div class="main-grid-item">
+          <img src="imgs/jayson-tatum.jpg" alt="NBA" />
+          <span>NFL</span>
+        </div>
+      </a>
+      <a href="cfl.html">
+        <div class="main-grid-item">
+          <img src="imgs/mahomes.webp" alt="NBA" />
+          <span>CFL</span>
+        </div>
+      </a>
+      <a href="xfl.html">
+        <div class="main-grid-item">
+          <img src="imgs/tampabay-lightning.jpeg" alt="NBA" />
+          <span>XFL</span>
+        </div>
+      </a>
+      <a href="usfl.html">
+        <div class="main-grid-item">
+          <img src="imgs/nbalogos.jpeg" alt="NBA" />
+          <span>USFL</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="content-section">
+      <h1>The History of Football</h1>
+      <p>
+        Dive deep into the history of your favorite sports leagues. Explore
+        detailed information about NBA, NFL, NHL, Soccer, and more. Discover how
+        these leagues began and evolved over time.
+      </p>
+      <div class="history-intro">
+        <div class="text-content">
+          <p>
+            Basketball was invented by Dr. James Naismith in 1891 as a way to
+            keep his students active during the winter months. The sport quickly
+            grew in popularity and became a staple in American culture,
+            eventually spreading worldwide.
+          </p>
+          <p>
+            The game has evolved significantly over the years, with changes to
+            the rules, playing styles, and the overall pace of the game. Today,
+            basketball is played at various levels across the globe, from local
+            community games to professional leagues.
+          </p>
+          <p>
+            The game has evolved significantly over the years, with changes to
+            the rules, playing styles, and the overall pace of the game. Today,
+            basketball is played at various levels across the globe, from local
+            community games to professional leagues.
+          </p>
+        </div>
+        <img src="imgs/jayson-tatum.jpg" alt="Basketball History" />
+      </div>
+    </div>
+
+    <div id="teams-grid"></div>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-team-name">Team Name</h2>
+        <p id="modal-team-description">Full description goes here.</p>
+        <p id="modal-team-founded">Founded:</p>
+        <p id="modal-team-stadium">Stadium:</p>
+      </div>
+    </div>
+
+    <script type="module" src="scripts/script.js"></script>
+  </body>
+</html>
