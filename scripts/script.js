@@ -134,6 +134,8 @@ if (pageTitle.includes("nba")) {
   fetchTeams("GFL");
 } else if (pageTitle.includes("ufl")) {
   fetchTeams("UFL");
+} else if (pageTitle.includes("cfl")) {
+  fetchTeams("CFL");
 } else if (pageTitle.includes("finnish")) {
   fetchTeams("Finnish Liiga");
 } else if (pageTitle.includes("german")) {
