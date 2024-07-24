@@ -128,4 +128,24 @@ if (pageTitle.includes("nba")) {
   fetchTeams("Spanish Liga ACB");
 } else if (pageTitle.includes("nbl")) {
   fetchTeams("Australian NBL");
+} else if (pageTitle.includes("xfl")) {
+  fetchTeams("XFL");
+} else if (pageTitle.includes("gfl")) {
+  fetchTeams("GFL");
+} else if (pageTitle.includes("ufl")) {
+  fetchTeams("UFL");
+} else if (pageTitle.includes("finnish")) {
+  fetchTeams("Finnish Liiga");
+} else if (pageTitle.includes("german")) {
+  fetchTeams("German DEL");
+} else if (pageTitle.includes("swiss")) {
+  fetchTeams("Swiss National League");
+} else if (pageTitle.includes("ufl")) {
+  fetchTeams("UFL");
+} else if (pageTitle.includes("la liga")) {
+  fetchTeams("Spanish La Liga");
+} else if (pageTitle.includes("serie")) {
+  fetchTeams("Italian Serie A");
+} else if (pageTitle.includes("mls")) {
+  fetchTeams("American Major League Soccer");
 }
