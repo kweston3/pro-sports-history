@@ -110,6 +110,9 @@ body {
   flex: 1;
   max-width: 400px;
   height: auto;
+  min-height: 300px;
+  max-height: 300px;
+  object-fit: cover;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -129,7 +132,7 @@ body {
 
   .history-intro img {
     max-width: 100%;
-    max-height: 350px;
+    max-height: 400px;
   }
 }
 
@@ -284,7 +287,7 @@ body {
 
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 125px auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
