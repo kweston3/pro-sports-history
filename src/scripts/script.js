@@ -1,4 +1,4 @@
-import config from "./config.js";
+import config from "../scripts/config.js";
 const apiKey = config.apiKey;
 
 // JavaScript for mobile menu toggle
