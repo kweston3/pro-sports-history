@@ -142,8 +142,6 @@ if (pageTitle.includes("nba")) {
   fetchTeams("German DEL");
 } else if (pageTitle.includes("swiss")) {
   fetchTeams("Swiss National League");
-} else if (pageTitle.includes("ufl")) {
-  fetchTeams("UFL");
 } else if (pageTitle.includes("la liga")) {
   fetchTeams("Spanish La Liga");
 } else if (pageTitle.includes("serie")) {
